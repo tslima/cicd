@@ -60,7 +60,7 @@
 								<web>java $JAVA_OPTS -jar -Dserver.port=$PORT
 									target/${project.build.finalName}.jar</web>
 							</processTypes>
-							<jdkVersion>1.11</jdkVersion>
+							<jdkVersion>11</jdkVersion>
 						</configuration>
 					</plugin>
 				</plugins>
