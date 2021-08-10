@@ -55,11 +55,12 @@
 						<artifactId>heroku-maven-plugin</artifactId>
 						<version>3.0.4</version>
 						<configuration>
-							<appName>tslima-cicd</appName>
+							<appName>cicd</appName>
 							<processTypes>
 								<web>java $JAVA_OPTS -jar -Dserver.port=$PORT
 									target/${project.build.finalName}.jar</web>
 							</processTypes>
+							<jdkVersion>1.11</jdkVersion>
 						</configuration>
 					</plugin>
 				</plugins>
