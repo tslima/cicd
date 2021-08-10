@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class TestService {
 
 	public int divide(final int div) {
-		return 9/div;
+		return 10/div;
 	}
 
 }
